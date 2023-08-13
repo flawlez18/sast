@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "web" {
   instance_type = "t2.micro"
-  ami = data.aws_ami.amzlinux2.id
+  ami           = data.aws_ami.amzlinux2.id
 
 }
 
@@ -25,8 +25,8 @@ resource "aws_autoscaling_group" "my_asg" {
 }
 
 resource "aws_launch_configuration" "my_web_config" {
-  name = "my_web_config"
-  image_id = data.aws_ami.amzlinux2.id
+  name          = "my_web_config"
+  image_id      = data.aws_ami.amzlinux2.id
   instance_type = "t2.micro"
 
 }
