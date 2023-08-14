@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket = "elasticbeanstalk-us-east-1-776602941589"
     key = "dev/terraform.tfstate"
-    region = "us-ease-1"
+    region = "us-east-1"
     #dynamodb_table = "terraform-lock"
   }
 }
