@@ -32,4 +32,3 @@ update girt workflow yaml file with:
               env:
                 GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-update:
