@@ -31,4 +31,5 @@ update girt workflow yaml file with:
               run: npx semantic-release
               env:
                 GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-           
+
+update:
