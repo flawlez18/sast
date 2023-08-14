@@ -1,0 +1,6 @@
+ module "vpc" {
+  source  = "git::https://github.com/flawlez18/sast-tfsec.git//main.tf?ref=v2.4.1" 
+ }
+
+#z will check if modules exists. 
+#ref=v2.4.1 is the version you want to pull.
